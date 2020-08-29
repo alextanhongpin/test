@@ -1,1 +1,3 @@
-export const greet = "hello world";
+const greet = "hello world";
+
+module.exports = { greet }
