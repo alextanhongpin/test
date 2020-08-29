@@ -27,6 +27,7 @@ jobs:
         with:
           node-version: 14.8
           registry-url: https://registry.npmjs.org/
+          scope: alextanhongpin # Add NPM package scope.
       - run: npm ci
       - run: npm publish --access public # This must be public for public repository.
         env:
