@@ -28,7 +28,7 @@ jobs:
           node-version: 14.8
           registry-url: https://registry.npmjs.org/
       - run: npm ci
-      - run: npm publish --access publis # This must be public for public repository.
+      - run: npm publish --access public # This must be public for public repository.
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
 
