@@ -1,0 +1,13 @@
+{
+  "name": "@alextanhongpin/test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "alextanhongpin <alextan220990@gmail.com>",
+  "license": "ISC",
+  "repository": "git://github.com/alextanhongpin/test.git"
+}
