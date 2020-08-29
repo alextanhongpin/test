@@ -1,4 +1,4 @@
-# test
+# test ![Node.js Package](https://github.com/alextanhongpin/test/workflows/Node.js%20Package/badge.svg)
 
 A simple github package under the scoped name `@alextanhongpin/test`.
 
