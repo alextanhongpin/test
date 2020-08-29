@@ -29,3 +29,7 @@ First you need to create the `GITHUB_TOKEN` and then follow the setup [here](htt
 $ npm version minor|major|patch
 $ npm publish
 ```
+
+## Automating publishing
+
+Github Action is set to publish the package to both `npm` and `Github Package` (though it fails for `npm` now due to auth error). In order to trigger the Github Action, we need to create a release manually.
